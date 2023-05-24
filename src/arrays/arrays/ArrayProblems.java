@@ -16,4 +16,16 @@ public class ArrayProblems {
         if (latestCounter > counter) return latestCounter;
         return counter;
     }
+
+    public static int findMaxConsecutiveOnesSol(int[] nums) {
+        int sum = 0;
+        int max = 0;
+        for (int num :
+                nums) {
+            sum += num;
+            if (num == 0) sum = 0;
+            else max = Math.max(max, sum);
+        }
+        return max;
+    }
 }

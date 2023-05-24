@@ -48,7 +48,7 @@ public class Main {
         // example of arrays
         int[] nums = {1,1,0,1,1,1};
         System.out.println("Finding maximum consecutive ones");
-        System.out.println(ArrayProblems.findMaxConsecutiveOnes(nums));
+        System.out.println(ArrayProblems.findMaxConsecutiveOnesSol(nums));
         InsertingItemsIntoAnArray.duplicateZeros(new int[]{1,0,0,2,3,0,0,4,5,0,0});
     }
 }
